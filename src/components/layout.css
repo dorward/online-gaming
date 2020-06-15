@@ -620,3 +620,39 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.wrapper > header {
+  flex: 0 0 auto;
+}
+
+.wrapper > .container {
+  flex: 1 1 auto;
+  max-width: 60em;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.wrapper > .container > nav {
+  flex: 0 0 auto;
+  width: 20em;
+}
+.wrapper > .container > main {
+  flex: 1 1 auto;
+}
+
+.wrapper > footer {
+  flex: 0 0 auto;
+  margin: auto;
+  max-width: 60em;
+}
