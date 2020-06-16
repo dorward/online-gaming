@@ -6,7 +6,7 @@ const findSection = (root, pathSegments) => {
 	const path = pathSegments.shift();
 	if (pathSegments.length) {
 		const found = root.find(element => element.about && element.about.segment === path);
-		return findSection(found, pathSegments);
+		return findSection(found.pages, pathSegments);
 	}
 	return root.pages || root;
 };
@@ -17,7 +17,6 @@ const makeMenu = section => {
 	section.forEach(page => {
 		if (page.about) {
 			const items = makeMenu(page.pages);
-			console.log({page});
 			elements.push(<li key={page.about.id}>
 				<Link to={page.about.slug}>{page.about.title}</Link>
 				{items}
@@ -48,20 +47,14 @@ const makePages = (edges) => {
 			mySection.push(about);
 		}
 	});
-	console.log({pages});
 	return makeMenu(pages);
-
 };
 
 const MyMenu = ({
 	data: {
 		allMarkdownRemark: { edges },
 	},
-}) => {
-	return (
-		<ul>{makePages(edges)}</ul>
-	);
-};
+}) => makePages(edges);
 
 const Menu = (props) => (
 	<StaticQuery
