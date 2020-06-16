@@ -21,7 +21,7 @@ module.exports = {
 				name: "markdown-pages",
 				path: `${__dirname}/src/markdown-pages`,
 			},
-		}, 
+		},
 		{
 			resolve: "gatsby-transformer-remark",
 			options: {
@@ -36,6 +36,15 @@ module.exports = {
 						},
 					},
 				],
+			},
+		},
+		{
+			resolve: "gatsby-plugin-s3",
+			options: {
+				bucketName: "online.freeforming.uk",
+				protocol: "https",
+				hostname: "online.freeforming.uk",
+		
 			},
 		},
 		{

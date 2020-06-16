@@ -11,6 +11,7 @@
     "gatsby-plugin-manifest": "^2.4.9",
     "gatsby-plugin-offline": "^3.2.7",
     "gatsby-plugin-react-helmet": "^3.3.2",
+    "gatsby-plugin-s3": "^0.3.3",
     "gatsby-plugin-sharp": "^2.6.9",
     "gatsby-remark-images": "^3.3.10",
     "gatsby-source-filesystem": "^2.3.8",
@@ -31,6 +32,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "npm run -n \"-r dotenv/config\" && npm run build && gatsby-plugin-s3 deploy && aws cloudfront create-invalidation --distribution-id E36DYA85AROCNS --paths \"/*\"",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
