@@ -655,6 +655,9 @@ kbd.space {
 
 .wrapper > header {
   flex: 0 0 auto;
+  color: white;
+  background: rebeccapurple;
+  padding: 1.45rem 1.45rem 0 1.45rem;
 }
 
 .wrapper > .container {
@@ -682,6 +685,19 @@ kbd.space {
   list-style-type: none;
 }
 
+.wrapper > .container {
+  padding: 0 1ex;
+}
+.wrapper > .container > nav > .hamburger {
+  display: none;
+}
+
+.wrapper > .container > nav > ul,
+.wrapper > .container > nav > ul > li {
+  margin-left: 0;
+  padding-left: 0;
+}
+
 .wrapper > .container > main {
   flex: 1 1 auto;
 }
@@ -692,3 +708,52 @@ kbd.space {
   max-width: 60em;
 }
 
+@media screen and (max-width: 750px) {
+
+  .wrapper > header {
+    position: relative;
+    z-index: 2;  
+  }
+
+  .wrapper > .container {
+    flex-direction: column;
+  }
+
+  .wrapper > .container > nav {
+    width: auto;
+  }
+
+  .wrapper > .container > nav > .hamburger {
+    display: block;
+    margin: -3.5rem 0 0 auto;
+    position: relative;
+    z-index: 3;  
+  }
+
+  .wrapper > .container > nav > .hamburger .hamburger-inner,
+  .wrapper > .container > nav > .hamburger .hamburger-inner::before, 
+  .wrapper > .container > nav > .hamburger .hamburger-inner::after  {
+    background: white;
+  }
+
+  .wrapper > .container > nav > ul {
+    position: relative;
+    z-index: 1;  
+    margin-top: -100%;
+    transition: all 0.3s ease;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1ex 2em;
+  }
+  .wrapper > .container > nav > ul a {
+    color: white;
+  }
+
+  .wrapper > .container > nav > .hamburger.is-active + ul {
+    margin-top: 0;
+  }
+
+  .wrapper > .container > main {
+    margin-top: 1rem;
+  }
+}
