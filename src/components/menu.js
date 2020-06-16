@@ -17,8 +17,9 @@ const makeMenu = section => {
 	section.forEach(page => {
 		if (page.about) {
 			const items = makeMenu(page.pages);
+			console.log({page});
 			elements.push(<li key={page.about.id}>
-				<strong>{page.about.title}</strong>
+				<Link to={page.about.slug}>{page.about.title}</Link>
 				{items}
 			</li>);
 		} else {
@@ -30,8 +31,7 @@ const makeMenu = section => {
 };
 
 const makePages = (edges) => {
-	const pages = [];
-	const pages_x = [];
+	const pages = [{id: 0, slug: "/", title: "Welcome", segment: "/"}];
 	edges.forEach(edge => {
 		const id = edge.node.id;
 		const slug = edge.node.frontmatter.slug;
