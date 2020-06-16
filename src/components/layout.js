@@ -32,7 +32,6 @@ const Layout = ({ children }) => {
 	if (menuOpen) {
 		menuClasses.push("is-active");
 	}
-
 	return (
 		<div className="wrapper">
 			<Header siteTitle={data.site.siteMetadata.title} />
@@ -43,7 +42,7 @@ const Layout = ({ children }) => {
 							<span className="hamburger-inner"></span>
 						</span>
 					</button>
-					<Menu />
+					<Menu hidden={!menuOpen} />
 				</nav>
 				<main>{children}</main>
 			</div>
