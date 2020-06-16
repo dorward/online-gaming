@@ -35,16 +35,24 @@ module.exports = {
 							maxWidth: 590,
 						},
 					},
+					{
+						resolve: "gatsby-remark-external-links",
+						options: {
+							target: "_blank",
+							rel: "noreferrer noopener"
+						}
+					}
 				],
 			},
 		},
+		"gatsby-plugin-catch-links",
 		{
 			resolve: "gatsby-plugin-s3",
 			options: {
 				bucketName: "online.freeforming.uk",
 				protocol: "https",
 				hostname: "online.freeforming.uk",
-		
+
 			},
 		},
 		{
