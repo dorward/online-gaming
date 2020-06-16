@@ -11,7 +11,7 @@ their roles, including pronoun roles if they have set them.
 To set your pronouns, go into a text channel that you can write into (we
 recommend XXXXXX) and type: `!pronoun they/them`.
 
-<kbd>!</kbd><kbd>p</kbd><kbd>r</kbd><kbd>o</kbd><kbd>n</kbd><kbd>u</kbd><kbd>u</kbd><kbd>n</kbd><kbd class="space">&nbsp;</kbd><kbd>t</kbd><kbd>h</kbd><kbd>e</kbd><kbd>y</kbd><kbd>/</kbd><kbd>t</kbd><kbd>h</kbd><kbd>e</kbd><kbd>m</kbd>
+<kbd>!</kbd><kbd>p</kbd><kbd>r</kbd><kbd>o</kbd><kbd>n</kbd><kbd>o</kbd><kbd>u</kbd><kbd>n</kbd><kbd class="space">&nbsp;</kbd><kbd>t</kbd><kbd>h</kbd><kbd>e</kbd><kbd>y</kbd><kbd>/</kbd><kbd>t</kbd><kbd>h</kbd><kbd>e</kbd><kbd>m</kbd>
 
 Replace `they/them` with the pronouns of your choice. Currently supported pronoun sets are:
 
@@ -25,4 +25,4 @@ Please contact an administrator if you would like to request additional options.
 
 You can use `!unpronoun` to remove your pronoun role.
 
-<kbd>!</kbd><kbd>u</kbd><kbd>n</kbd><kbd>p</kbd><kbd>r</kbd><kbd>o</kbd><kbd>n</kbd><kbd>u</kbd><kbd>u</kbd><kbd>n</kbd>
+<kbd>!</kbd><kbd>u</kbd><kbd>n</kbd><kbd>p</kbd><kbd>r</kbd><kbd>o</kbd><kbd>n</kbd><kbd>o</kbd><kbd>u</kbd><kbd>n</kbd>
