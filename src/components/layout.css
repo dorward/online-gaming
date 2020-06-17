@@ -686,7 +686,7 @@ kbd.space {
 }
 
 .wrapper > .container {
-  padding: 0 1ex;
+  padding: 1ex;
 }
 .wrapper > .container > nav > .hamburger {
   display: none;

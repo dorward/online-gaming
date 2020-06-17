@@ -13,6 +13,7 @@ const IndexPage = () => {
 			<p>This guide is designed to help you take part in these games using the methods that the UK Freeforms committee have decided to use.</p>
 			<p>Running and playing freeform LARPS is still a new practice to most of us, our approaches and this guide may well change as we learn.</p>
 			<p>There will be rough patches as technology is imperfect and we are still learning, so please practice kindness and patience even more than usual.</p>
+			<p>If you have any questions, problems or suggestions for improvements then please contact [info@consequences.org.uk](mailto:info@consequences.org.uk).</p>
 		</Layout>
 	);
 };
