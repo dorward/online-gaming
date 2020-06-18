@@ -1,6 +1,6 @@
 module.exports = {
 	siteMetadata: {
-		title: "UK Freeforms Online Gaming Guide",
+		title: "UK Freeforms Online Gaming Guide (draft)",
 		description: "A guide to online LARPS using Discord with the UK Freeforms Community",
 		author: "@dorward",
 	},

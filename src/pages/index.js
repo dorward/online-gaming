@@ -9,6 +9,7 @@ const IndexPage = () => {
 	return (
 		<Layout>
 			<SEO title="Home" />
+			<p><strong>This guide is a work in progress. Some sections are missing and there may be errors.</strong></p>
 			<p>2020 has brought many challenges to our lives and to our hobby. We can't gather in person to play the games we love, so perhaps the next best thing is to meet up virtually using video and voice chat over the Internet.</p>
 			<p>This guide is designed to help you take part in these games using the methods that the UK Freeforms committee have decided to use.</p>
 			<p>Running and playing freeform LARPS is still a new practice to most of us, our approaches and this guide may well change as we learn.</p>
