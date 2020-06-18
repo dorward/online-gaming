@@ -1,7 +1,6 @@
 ---
 slug: "/bots-pronouns"
 title: "Pronouns"
-section: false
 ---
 
 We have a number of [roles](/roles) set up that people may use to show how they

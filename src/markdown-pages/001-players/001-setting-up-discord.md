@@ -25,6 +25,7 @@ instructions here are less useful if you don't use a desktop client.
 Versions are available for Windows, macOS and Linux.
 
 Start by visiting [the Discord website](https://discord.com/) and clicking the
-*Download for (blank)* button near the top. Then run the downloaded installer program.
+*Download for (blank)* button near the top. Then run the downloaded installer
+program.
 
 **TO DO**: Setting up an account

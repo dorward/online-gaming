@@ -1,7 +1,6 @@
 ---
 slug: "/bots-dice"
 title: "Dice"
-section: false
 ---
 
 Sometimes we need to generate a random result during a game and you can use a

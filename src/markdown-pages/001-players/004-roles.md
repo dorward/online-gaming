@@ -1,7 +1,6 @@
 ---
 slug: "/roles"
 title: "Roles"
-section: false
 ---
 
 Roles are Discord's way of making users (both people and bots) as members of a
