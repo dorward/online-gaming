@@ -13,7 +13,7 @@ To join a voice channel, click on the channel name.
 To leave a voice channel either join a *different* one or click the *hang-up* icon
 near the bottom of the list of channels. It looks like a telephone handset with a cross beside it and is on the right hand side.
 
-![Voice Channel UI](../channels.png)
+![Voice Channel UI](voiceui.png)
 
 GMs and committee members can also move you between rooms. Please note if they
 move you it will automatically switch any video off and you will need to turn it
