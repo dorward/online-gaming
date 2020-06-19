@@ -16,7 +16,7 @@ click on their name — either in a text chat or in the side bar listing all the
 users on the server — it will give you a list of their roles. These will include
 their [pronouns](/bots-pronouns) if they choose to present them there.
 
-![Example user information box](../..//images/roles.png)
+![Example user information box](../../images/roles.png)
 
 We also use roles for administration purposes. For example, GMs have permission
 to create new voice and text channels for their games.

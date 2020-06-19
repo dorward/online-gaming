@@ -16,3 +16,5 @@ have a smooth game.
 * Double check your [video and audio settings](/players-configure-av) and spend
   a little time in the bar area chatting to people half an hour or so before the
   game is due to start so that any technical issues get discovered early.
+* Change your [nickname and pronouns](/players-identity) to match your
+  character's identity.
