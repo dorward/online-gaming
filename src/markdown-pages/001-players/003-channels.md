@@ -10,4 +10,4 @@ two categories:
 * [Text channels](/players-channels-text) are marked with a # symbol.
 * Voice channels are marked with a 🔈 symbol.
 
-![User interface for channels](channels.png)
+![User interface for channels](../../images/channels.png)

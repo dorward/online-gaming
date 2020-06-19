@@ -8,7 +8,7 @@ by a physical control on your microphone, by the mute button next to your
 profile icon at the bottom of the channels list, or by your operating system's
 sound controls.
 
-![Settings Icon](../001-players/settings-icon.png)
+![Settings Icon](../..//images/settings-icon.png)
 
 If you aren't muted, it could be a connection issue. Briefly leave the channel
 and then rejoin it.

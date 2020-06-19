@@ -23,6 +23,12 @@ module.exports = {
 			},
 		},
 		{
+			resolve: "gatsby-source-filesystem",
+			options: {
+				path: `${__dirname}/src/images`,
+			},
+		},
+		{
 			resolve: "gatsby-transformer-remark",
 			options: {
 				plugins: [
@@ -33,6 +39,7 @@ module.exports = {
 							// the content container as this plugin uses this as the
 							// base for generating different widths of each image.
 							maxWidth: 590,
+							withWebp: { quality: 80 }
 						},
 					},
 					{

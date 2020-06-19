@@ -6,7 +6,7 @@ title: "Setting up Audio and Video"
 Go into the User Settings by clicking the cog icon near your profile image at
 the bottom of the list of channels.
 
-![Settings button](settings-icon.png)
+![Settings button](../..//images/settings-icon.png)
 
 In the menu to the left select *Voice & Video*. You should see the screen presented in the image at the bottom of this document. We'll work through the most useful options to change from top to bottom.
 
@@ -30,4 +30,4 @@ Voice Activity is more convenient, but you may find that it picks up sounds you 
 
 This lets you pick which web cam you are using and test that it is working. You should take this opportunity to ensure that any image you broadcast is suitable. Take the opportunity to check your clothes for spaghetti stains and your shelves for unsuitable ornaments.  
 
-![Settings button](settings-vav.png)
+![Settings button](../..//images/settings-vav.png)
