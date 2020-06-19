@@ -692,10 +692,25 @@ kbd.space {
   display: none;
 }
 
-.wrapper > .container > nav > ul,
-.wrapper > .container > nav > ul > li {
-  margin-left: 0;
-  padding-left: 0;
+.wrapper > .container > nav * {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper > .container > nav ul ul {
+  margin-left: 2em;
+}
+
+.wrapper > .container > nav a {
+  text-decoration: none;
+  display: block;
+  margin-right: 2em;
+  padding: 1px 2px;
+}
+
+.wrapper > .container > nav a:hover {
+  /* text-decoration: underline; */
+  background: #c9f;
 }
 
 .wrapper > .container > main {
